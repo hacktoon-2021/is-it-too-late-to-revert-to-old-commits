@@ -265,7 +265,7 @@ window.onload = function() {
 
     Events.on(mouseConstraint, "mousedown", function(event) {
         if (mouseConstraint.body === nextBtn && checkAllIn()) {
-            location.replace("/is-it-too-late-to-revert-to-old-commits/intro/index.html");
+            location.replace("../intro/index.html");
         }
 
         if (textNotSpoken) {
