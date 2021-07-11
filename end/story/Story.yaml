@@ -1,0 +1,38 @@
+start:
+  - play morningBGM:
+  - show room: WITH FADE CONTINUE
+  - show narooto: normal AT RIGHT WITH FADE
+  - wait: 300
+  - narooto says: That took forever.
+  - narooto says: Finally, some soup to go with these weird soggy pocket fishcakes
+  - narooto says: itadakimasu (italic)cracks open the pc(end)
+  - choice:
+    - Slurp the noodles:
+      - narooto says: Hmm these noodles taste metallic.
+    - Eat the seaweed:
+      - narooto says: Why is this seaweed so... (bold)crunch(end) crunchy...
+  - narooto says: mmm tasty (italic)chugs the cooling liquid(end)
+  - narooto says: At last I finally have the soup.
+  - hide ALL: WITH FADE
+  - narooto says: END
+  - narooto says: END ?
+  - scene: endGame
+
+endGame:
+  - narooto says normal: Season 2!
+  - effect ROLLINGCREDITS:
+    endGame: true
+    text:
+      - this is tiring
+      - uhh season 2 when
+      - find us on patreon, links in the description
+      - fund the arts
+      - buy us a kofi
+      - the enddddddd
+      - null
+      - null
+      - null
+      - or is it?
+      - dun
+      - dun
+      - dunnnnnnn

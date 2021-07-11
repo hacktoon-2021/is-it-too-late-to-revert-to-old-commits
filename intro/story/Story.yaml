@@ -1,0 +1,73 @@
+start:
+  - play morningBGM:
+  - show room: WITH FADE CONTINUE
+  - show patric: normal AT LEFT WITH FADE
+  - show narooto: normal AT RIGHT WITH FADE
+  - wait: 300
+  - patric says: Uhhh who are you?
+  - choice:
+    - I can't remember...:
+      - patric says sad: Great! I don't remember my name either! We must be twins!
+    - Me? Who are you?:
+      - show patric: angry
+      - patric says angry: Hey! That isn't very nice.
+      - patric says normal: But I don't rememeber my name either. We must be twins!
+  - patric says: I think I might be Bob though...
+  - narooto says : It seems like your name is Star. Like that cartoon?
+  - patric says: Wait what was I doing? Well uh...
+  - patric says: (Thinks about lunch. A certain fast food restaurant sounds good.)
+  - patric says normal: Well bye.
+  - narooto says: (Well that guy was super weird)
+  - narooto says: Hey wait whats that building over there?
+  - narooto says angry: And why are my pockets filled with fishcake??!?
+  - narooto says: It does smell kinda yummy tho...
+  - patric says: Hey! I'm hungry! Give me FOOD! Or else!!!
+  - patric says: ...
+  - patric says normal: Thanks for the snack
+  - patric says: Let's go!
+  - hide ALL: WITH FADE
+  - scene: bridge
+
+bridge:
+  - play morningBGM:
+  - show room: WITH FADE CONTINUE
+  - show patric: normal AT LEFT
+  - show narooto: normal AT RIGHT
+  - wait: 300
+  - patric says: See that bridge?
+  - patric says: I bet that place across the bridge has some great food!
+  - patric says: Maybe some great soup to go well with all these fishcakes.
+  - choice:
+    - Uhhh...:
+      - narooto says: (Not sure why there would be food there but sure...)
+    - Neat!:
+      - narooto says: (I can't wait for soup!)
+  - patric says: So here's the deal,
+  - patric says: We gotta cross this loooong bridge to get over there,
+  - patric says: But this bridge is way too long.
+  - narooto says: And?
+  - patric says: And it's far too narrow.
+  - narooto says: I doubt you'd fit.
+  - patric says: Sounds about right.
+  - patric says: So whaddya say?
+  - choice:
+    - What?:
+      - narooto says: What do I say?
+      - patric says angry: Just shut up and go get the soup.
+    - Let's go:
+      - narooto says: Let's go get that soup!
+  - hide ALL: WITH FADE
+  - scene: endGame
+
+
+endGame:
+  - patric says normal: Cutscene over!
+  - effect ROLLINGCREDITS:
+    endGame: true
+    text:
+      - GO
+      - TO
+      - THE
+      - NEXT
+      - SCENE
+      - BYE

@@ -1,0 +1,44 @@
+<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+<style>
+    body {
+        margin: 0;
+    }
+</style>
+
+<div class="fixed text-white text-4xl ml-2 mt-1 select-none">
+    <span>Score: </span><span id="scoreEle">0</span>
+</div>
+
+
+<div>
+
+    <div class="fixed inset-0 flex items-center justify-center" id="modalEle">
+        <div class="bg-white max-w-md w-full p-6 text-center rounded-lg">
+            <h1 class="text-4xl bold leading-none" id="bigScoreEle"></h1>
+            <p class="text-4xl text-indigo-900 mb-4" id="commentEle">Click for rewardz</p>
+            <p class="text-xl text-indigo-900 mb-4">[Rmb you got a friend in me.]</p>
+            <div>
+                <button class="bg-blue-500 text-white w-full py-3 rounded-full text-sm"
+                        id="startGameBtn">
+                    Starttt
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="fixed inset-x-0 bottom-0 justify-center flex items-center select-none" id="dialogBoxEle">
+        <div class="bg-purple-200 max-w-md w-full p-6 text-center rounded-lg">
+            <p class="text-xl text-indigo-900 mb-4" id="dialogEle">insert dialog</p>
+        </div>
+    </div>
+
+
+</div>
+
+
+
+<canvas style="background: url('../images/ending_bg/ending_bg.jpg')"></canvas>
+<script src="../assets/js/ending.js"></script>
+
+

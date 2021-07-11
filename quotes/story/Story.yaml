@@ -1,0 +1,50 @@
+start:
+  - play morningBGM:
+  - show room: WITH FADE CONTINUE
+  - show narooto: normal AT RIGHT WITH FADE
+  - wait: 300
+  - narooto says: That was close! Those pigeons almost killed me.
+  - narooto says: That was close! Good thing I yote those fishcake fast enough.
+  - play crashSFX2:
+  - narooto says: Oh shoot!
+  - doof says: Hey! What's that sound?
+  - show doof: normal AT LEFT FLIP WITH FADE
+  - choice:
+    - Uhhh... nobody's here!:
+      - narooto says: Nothing! There's nobody here!
+      - doof says: Are you sure thers's nobody there cause I definitely hear somebody.
+      - doof says: Parry you better not have broken the inator yet!
+      - doof says: I haven't even told you my backstory.
+    - (keep quiet):
+      - doof says: Parry the platypus is that you?
+      - doof says: You know Parry why don't you ever use the front door.
+  - narooto says: I'm not Parry.
+  - doof says: Well then who are you.
+  - narooto says: I'm just here for the soup?
+  - doof says: Well we have a souper computer does that work?
+  - narooto says: A souper computer you say?
+  - doof says: Yes a souper computer. It's just down the hall.
+  - doof says: Right next to the infinite-anime-hallway-inator.
+  - narooto says: That computer better have soup in it.
+  - hide ALL: WITH FADE
+  - scene: endGame
+
+endGame:
+  - narooto says normal: Transition over!
+  - effect ROLLINGCREDITS:
+    endGame: true
+    text:
+      - do you know that naruto was named after narutomaki?
+      - null
+      - fun fact
+      - pineapples do not live under the sea
+      - null
+      - fish sticks are nice...
+      - null
+      - I'm hungry.
+      - null
+      - why are you still reading this
+      - null
+      - begone, random person on the internet
+      - null
+      - onwards to the next scene

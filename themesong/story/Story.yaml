@@ -1,0 +1,49 @@
+start:
+  - play morningBGM:
+  - show room: WITH FADE CONTINUE
+  - show narooto: normal AT RIGHT WITH FADE
+  - wait: 300
+  - narooto says: Phew! Bridge was super long...
+  - choice:
+    - I can't wait for soup!:
+      - narooto says: Let's go get some soup!
+    - (second option to provide the illusion of choice):
+      - narooto says: Alright! Time for soup!
+  - narooto says: Woah this place is heavily guarded.
+  - narooto says : What is this flying thing?
+  - narooto says: Is this a pigeon?
+  - show drone: AT OUTLEFT
+  - play droneSFX:
+  - animate drone:
+    time: 1000
+    position:
+        x: 933
+        y: 600
+    alpha: 0
+  - narooto says: Hey! Watch it! That pigeon almost took off my wig!
+  - narooto says: Ugh!
+  - narooto says: If I want to get that sooop I gotta take out these drones.
+  - narooto says: Go infinite pocket fishcake!
+  - hide ALL: WITH FADE
+  - scene: endGame
+
+endGame:
+  - narooto says normal: Transition over!
+  - effect ROLLINGCREDITS:
+    endGame: true
+    text:
+      - what are you still doing here
+      - move on to the next scene already!
+      - go on!
+      - get!
+      - shoo!
+      - yeeettt
+      - fun fact
+      - null
+      - There is a real river called the naruto river
+      - null
+      - in which there are whirlpools called naruto whirlpools
+      - null
+      - after which the swirly fishcake are named.
+      - null
+      - The bridge across it is called the naruto bridge

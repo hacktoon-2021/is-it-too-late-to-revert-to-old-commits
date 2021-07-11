@@ -1,0 +1,39 @@
+
+backgrounds:
+  room: assets/backgrounds/bridgeCutscene.png
+  room_night: assets/backgrounds/room_night.jpg
+  room_night_light: assets/backgrounds/room_night_light.jpg
+
+characters:
+  doof:
+    displayName: biDoof
+    speechColour: "#ca90cf"
+    looks:
+      normal: assets/characters/patrick_1.png
+  narooto:
+    displayName: Narooto
+    speechColour: "#238cfd"
+    looks:
+      normal: assets/characters/naruto_normal.png
+      happy: assets/characters/naruto_happy.png
+      angry: assets/characters/naruto.png
+
+cgs:
+  phone1: assets/objects/phone1.png
+  phone2: assets/objects/phone2.png
+  drone: assets/objects/drone.png
+
+music:
+  rollingCredits: assets/audio/Evan_Schaeffer_-_01_-_Aqueduct.mp3
+  morningBGM: assets/audio/ElectroCabello.mp3
+sfx:
+  ringtoneSFX: assets/audio/nokia6210-24-elise.mp3
+  ringtoneSFX2: assets/audio/alcatel-top_secret.mp3
+  droneSFX: assets/audio/collision.mp3
+
+extra:
+  spritesheets:
+    rain: assets/ambient/rain.png 17 17
+    sakura: assets/ambient/sakura-petals.png 17 26
+    snowflakes: assets/ambient/snowflakes.png 17 17
+    snowflakes_large: assets/ambient/snowflakes_large.png 64 64
